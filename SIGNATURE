@@ -1,0 +1,45 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+SHA1 8624bcdae55baeef00cd11d5dfcfa60f68710a02 COPYING
+SHA1 69607fa2caf25537ec3b25e7d31d60ab5a395312 Changes
+SHA1 615a5a016d0b4a2ad1fd488fc025b40b3996ece2 MANIFEST
+SHA1 22990afaa5445313824977716008e087103401ec META.json
+SHA1 ad591e76257456cd18f2359da80f2b7b214e9986 META.yml
+SHA1 b75efe070267460cd16ab04553984255da864b7b Makefile.PL
+SHA1 202e253c00aabaa42c8b706a782450b722bb6573 README
+SHA1 3462ae728f00b6e651a0f77c4d315f62b767d3c5 lib/App/RemoteGnokii.pm
+SHA1 0e92e4864d75253eedf6de50f63c300106db3d2e rg-action
+SHA1 caa14160fe589043e2c4de606d19c7d7071c7319 rg-psgi
+SHA1 02b9c2746a92ad9eba064295df5436126d39249b rg-smsd
+SHA1 755a9e5a02ef56cd5877366dd51f2face31839fc t/App-RemoteGnokii.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBCgAGBQJUFMTvAAoJEMoENb5ewbNiJtMP/0jKmohLc28KLVWo+GNY3AvF
+F7awUq1qFQ02oXkVcLJnalC12aISuViM9XfzEQbNLXWVIJZjYbwfWm4Y5q+bXDXN
+ON9GyHyuJbtSro7ttJT1g0NAXO0DqEW3n/Rwfp57bNgm97h16pG0dum5JHu1tTJs
+Z1IuLbax2CFOI0Ma1cyAycldsVky5NmsQuAWhCvYjfubxcRQ1/LBTZOlanaDBdYN
+4gP62WJNrV+QdTwSUkcviE3fsaTxFDh9b1FhuvlUABESBx2epOWRQUXw6usgf3lC
+bUO7tSRLiWAqqSyp4Iu6l2ueXw0fqurKhJL0mr+partH2x9AeiVv4qTaruhIWnA9
+Ofy7Icql3/0r2a0sBUOANAWjBw07S0n8qsvPsky12MyFOvWUJcBH77sDjshGTzwB
+bmdB9RKPFU6ZUFwVIFHPHo9VyDHXZeJL2URwB+7c8DwoVo3ZI592nRlC5R0ZHwo+
+T8VSRZRxvNhQ2MnNrkd0q/8HvlAYuFoV1pHyBCZZpXmt1OKNtYF7vVe2uNVtqXoi
+J2n4+YvZ083bBP1N37IEgjowPSmGyZiz3Zu9a2AQYxt94yZiUgiPascFRzfHYrlW
+Jx4YwByla5/wn6lZWi9uXQ3TSmqcV4IUTEdMTBjJKwtxSM+sS9fUJtjdR7kc54sW
+NN2ZNdp8D+7V/N30w3PT
+=iqT2
+-----END PGP SIGNATURE-----
